@@ -1,2 +1,2 @@
 # {N} Animations
-Repo for playing with [NativeScript](www.nativescript.org) animations.
+Repo for playing with [NativeScript](http://www.nativescript.org) animations.
