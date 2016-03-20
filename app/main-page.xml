@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" 
+    navigatedTo="navigatedTo"
+    actionBarHidden="true">
+    <GridLayout>
+        <StackLayout id="buttons">
+            <Button text="SPIN" tap="fade" class="animation-btn cool1" />
+            
+            <Button text="DASH" tap="dash" class="animation-btn cool2" />
+            
+            <Button text="ROLL" tap="roll" class="animation-btn cool3" />
+            
+            <Button text="WORM" tap="worm" class="animation-btn cool4" />     
+        </StackLayout>
+        <Button text="BRING THEM BACK" id="show-all"
+                class="show-all" tap="showAll"
+                translateY="-400"/>
+  </GridLayout>
+</Page>
